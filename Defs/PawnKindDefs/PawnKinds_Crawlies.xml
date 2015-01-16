@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+<!-- Crawler -->
+  <PawnKindDef>
+    <defName>Crawler</defName>
+    <label>crawler</label>
+    <race>Mechanoid_Crawler</race>
+    <pointsCost>14</pointsCost>
+    <defaultFactionType>Mechanoid</defaultFactionType>
+    <aiAvoidCover>false</aiAvoidCover>
+    <isFighter>true</isFighter>
+    <standardBodygraphicPath>Crawler</standardBodygraphicPath>
+  </PawnKindDef>
+  
+  <PawnKindDef>
+    <defName>CrawlerShady</defName>
+    <label>crawler</label>
+    <race>Mechanoid_Crawler</race>
+    <pointsCost>14</pointsCost>
+    <defaultFactionType>Mechanoid</defaultFactionType>
+    <aiAvoidCover>false</aiAvoidCover>
+    <isFighter>false</isFighter>
+    <standardBodygraphicPath>Crawler</standardBodygraphicPath>
+  </PawnKindDef>
+  
+ <!-- Skullywag -->
+  <PawnKindDef>
+    <defName>Skullywag</defName>
+    <label>skullywag</label>
+    <race>Mechanoid_Skullywag</race>
+    <pointsCost>200</pointsCost>
+    <defaultFactionType>Mechanoid</defaultFactionType>
+    <aiAvoidCover>true</aiAvoidCover>
+    <isFighter>true</isFighter>
+    <standardBodygraphicPath>Skullywag</standardBodygraphicPath>
+  </PawnKindDef>
+  
+  <!-- Assimilated Human -->
+  <PawnKindDef>
+    <defName>AssimilatedHuman</defName>
+    <label>assimilated human</label>
+    <race>Assimilated_Human</race>
+    <pointsCost>100</pointsCost>
+    <defaultFactionType>Mechanoid</defaultFactionType>
+	<weaponMoney>
+      <min>500</min>
+      <max>500</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>AdvancedGun</li>
+    </weaponTags>
+    <aiAvoidCover>false</aiAvoidCover>
+    <isFighter>true</isFighter>
+    <standardBodygraphicPath>Assimilated_Male1</standardBodygraphicPath>
+  </PawnKindDef>
+  
+  <!-- Scoutbot -->
+  <PawnKindDef>
+    <defName>Scoutbot</defName>
+    <label>scoutbot</label>
+    <race>Mechanoid_Scoutbot</race>
+    <pointsCost>60</pointsCost>
+    <defaultFactionType>Mechanoid</defaultFactionType>
+	<weaponMoney>
+      <min>60</min>
+      <max>60</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <aiAvoidCover>false</aiAvoidCover>
+    <isFighter>true</isFighter>
+    <standardBodygraphicPath>Scout</standardBodygraphicPath>
+  </PawnKindDef>
+  
+  <!-- Assaulter -->
+  <PawnKindDef>
+    <defName>Assaulter</defName>
+    <label>assaulter</label>
+    <race>Mechanoid_Assaulter</race>
+    <pointsCost>280</pointsCost>
+    <defaultFactionType>Mechanoid</defaultFactionType>
+	<weaponMoney>
+      <min>1000</min>
+      <max>1000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>MechanoidGunHeavy</li>
+    </weaponTags>
+    <aiAvoidCover>true</aiAvoidCover>
+    <isFighter>true</isFighter>
+    <standardBodygraphicPath>Assaulter</standardBodygraphicPath>
+  </PawnKindDef>
+
+</PawnKindDefs>

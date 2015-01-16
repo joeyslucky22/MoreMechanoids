@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+ 
+  <!-- Special non-humanoid factions -->
+  
+  <FactionDef>
+    <defName>Mechanoid</defName>
+    <label>mechanoid hive</label>
+    <description>A hive of ancient self-replicating machines.</description>
+    <pawnsPlural>mechanoids</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <fixedName>a mechanoid hive</fixedName>
+    <raidCommonality>45</raidCommonality>
+    <humanoidFaction>false</humanoidFaction>
+    <hidden>true</hidden>
+    <canFlee>false</canFlee>
+    <techLevel>Ultra</techLevel>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-100</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-100</max>
+    </naturalColonyGoodwill>
+    <spawnGroups>
+      <li>
+        <selectionWeight>50</selectionWeight>
+        <kinds>
+          <li>Crawler</li>
+          <li>Crawler</li>
+          <li>Crawler</li>
+          <li>Crawler</li>
+          <li>Crawler</li>
+          <li>Crawler</li>
+          <li>Crawler</li>
+          <li>Crawler</li>
+          <li>Crawler</li>
+          <li>CrawlerShady</li>
+        </kinds>
+      </li>
+      <li>
+        <selectionWeight>100</selectionWeight>
+        <kinds>
+          <li>Centipede</li>
+        </kinds>
+      </li>
+	  <li>
+        <selectionWeight>10</selectionWeight>
+        <kinds>
+          <li>Crawler</li>
+        </kinds>
+      </li>
+      <li>
+        <selectionWeight>75</selectionWeight>
+        <kinds>
+          <li>Scyther</li>
+        </kinds>
+      </li>
+   </spawnGroups>
+    <homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
+    <homeIconColor>(150,150,150)</homeIconColor>
+  </FactionDef>
+
+  <FactionDef>
+    <defName>Crawlies</defName>
+    <label>mechanoid hive</label>
+    <description>[DEPRECATED] Left in so as not to break existing games.</description>
+    <pawnsPlural>mechanoids</pawnsPlural>
+    <requiredCountAtGameStart>0</requiredCountAtGameStart>
+    <fixedName>a mechanoid hive</fixedName>
+    <raidCommonality>0</raidCommonality>
+    <humanoidFaction>false</humanoidFaction>
+    <hidden>true</hidden>
+    <canFlee>true</canFlee>
+    <techLevel>Ultra</techLevel>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-100</max>
+    </startingGoodwill>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-100</max>
+    </naturalColonyGoodwill>
+	<spawnGroups>
+      <li>
+        <selectionWeight>250</selectionWeight>
+        <kinds>
+          <li>Villager</li>
+		</kinds>
+	  </li>
+	</spawnGroups>
+
+  </FactionDef>
+
+
+
+</FactionDefs>
